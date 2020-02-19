@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://localhost:5001",
+  "targetBrowser": "Firefox",
+  "isPrivateMode": "true",
+  "isHeadless": "false"
+}

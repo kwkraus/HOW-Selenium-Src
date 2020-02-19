@@ -8,10 +8,14 @@ namespace HOW.Selenium.WebApp.Tests
     {
         protected TestBase()
         {
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("settings.json")
+                .Build();
+
             Driver.Initialize(
-                "Chrome", //ConfigurationSettings.AppSettings["TargetBrowser"].ToString(),
-                true, //bool.Parse(ConfigurationSettings.AppSettings["isPrivateMode"].ToString()),
-                false); //bool.Parse(ConfigurationSettings.AppSettings["isHeadless"].ToString()));
+                config["targetBrowser"],
+                bool.Parse(config["isPrivateMode"]), //bool.Parse(ConfigurationSettings.AppSettings["isPrivateMode"].ToString()),
+                bool.Parse(config["isHeadless"])); //bool.Parse(ConfigurationSettings.AppSettings["isHeadless"].ToString()));
 
             Driver.BaseUrl = "https://localhost:5001"; // ConfigurationSettings.AppSettings["BaseUrl"].ToString();
         }

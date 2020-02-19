@@ -1,4 +1,5 @@
 ﻿using HOW.Selenium.WebApp.Framework.Pages;
+using System.Threading;
 using Xunit;
 
 namespace HOW.Selenium.WebApp.Tests.Tests
