@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOW.Selenium.WebApp", "HOW.Selenium.WebApp\HOW.Selenium.WebApp.csproj", "{188F5E67-D14A-4CDC-BA50-CE1D9FE51416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOW.Selenium.WebApp", "HOW.Selenium.WebApp\HOW.Selenium.WebApp.csproj", "{188F5E67-D14A-4CDC-BA50-CE1D9FE51416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOW.Selenium.WebApp.Framework", "HOW.Selenium.Framework\HOW.Selenium.WebApp.Framework.csproj", "{10B029EF-9F36-4C7B-B8A3-FE9B231657BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOW.Selenium.WebApp.Tests", "HOW.Selenium.WebApp.Tests\HOW.Selenium.WebApp.Tests.csproj", "{986DFD89-32EE-482C-966E-7A11FEAAC43A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOW.Selenium.WebApp.Tests", "HOW.Selenium.WebApp.Tests\HOW.Selenium.WebApp.Tests.csproj", "{986DFD89-32EE-482C-966E-7A11FEAAC43A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOW.Selenium.WebApp.Framework", "HOW.Selenium.WebApp.Framework\HOW.Selenium.WebApp.Framework.csproj", "{F62E4C4C-1B6D-46AB-8201-DB159AA53940}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{188F5E67-D14A-4CDC-BA50-CE1D9FE51416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{188F5E67-D14A-4CDC-BA50-CE1D9FE51416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{188F5E67-D14A-4CDC-BA50-CE1D9FE51416}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10B029EF-9F36-4C7B-B8A3-FE9B231657BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10B029EF-9F36-4C7B-B8A3-FE9B231657BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10B029EF-9F36-4C7B-B8A3-FE9B231657BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10B029EF-9F36-4C7B-B8A3-FE9B231657BF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{986DFD89-32EE-482C-966E-7A11FEAAC43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{986DFD89-32EE-482C-966E-7A11FEAAC43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986DFD89-32EE-482C-966E-7A11FEAAC43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986DFD89-32EE-482C-966E-7A11FEAAC43A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62E4C4C-1B6D-46AB-8201-DB159AA53940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62E4C4C-1B6D-46AB-8201-DB159AA53940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62E4C4C-1B6D-46AB-8201-DB159AA53940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62E4C4C-1B6D-46AB-8201-DB159AA53940}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

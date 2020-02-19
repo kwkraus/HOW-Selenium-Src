@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HOW.Selenium.Framework\HOW.Selenium.WebApp.Framework.csproj" />
+    <ProjectReference Include="..\HOW.Selenium.WebApp.Framework\HOW.Selenium.WebApp.Framework.csproj" />
   </ItemGroup>
 
   <ItemGroup>
