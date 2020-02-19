@@ -17,7 +17,7 @@ namespace HOW.Selenium.WebApp.Tests
                 bool.Parse(config["isPrivateMode"]), //bool.Parse(ConfigurationSettings.AppSettings["isPrivateMode"].ToString()),
                 bool.Parse(config["isHeadless"])); //bool.Parse(ConfigurationSettings.AppSettings["isHeadless"].ToString()));
 
-            Driver.BaseUrl = "https://localhost:5001"; // ConfigurationSettings.AppSettings["BaseUrl"].ToString();
+            Driver.BaseUrl = config["baseUrl"];
         }
 
         public void Dispose()

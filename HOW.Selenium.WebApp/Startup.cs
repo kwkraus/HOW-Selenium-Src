@@ -50,7 +50,6 @@ namespace HOW.Selenium.WebApp
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
