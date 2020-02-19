@@ -9,9 +9,8 @@ namespace HOW.Selenium.WebApp.Tests.Tests
         public void HomePage_Navigate_To_Page()
         {
             HomePage.GoTo();
-            var result = HomePage.IsAt;
 
-            Assert.True(true);
+            Assert.True(HomePage.IsAt);
         }
     }
 }
