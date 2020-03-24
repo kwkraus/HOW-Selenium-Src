@@ -1,4 +1,4 @@
-# Session1: HOW Selenium Automation Source Repo
+# Session 2: Building the Framework
 
 This repository is for the source code for the Hands On Walkthrough (HOW) Session: HOW to build Functional Tests using Selenium
 
