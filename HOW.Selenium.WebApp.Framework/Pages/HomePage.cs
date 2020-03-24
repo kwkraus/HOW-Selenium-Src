@@ -15,15 +15,7 @@ namespace HOW.Selenium.WebApp.Framework.Pages
             {
                 var header = Driver.Instance.FindElement(By.TagName("h1"));
 
-                if (header.Text == "Welcome")
-                {
-                    return true;
-                }
-                else
-                {
-                    Helper.TakeScreenShot(Driver.Instance, $"{nameof(HomePage)}-{nameof(IsAt)}");
-                    return false;
-                }
+                return (header.Text == "Welcome");
             }
         }
     }
