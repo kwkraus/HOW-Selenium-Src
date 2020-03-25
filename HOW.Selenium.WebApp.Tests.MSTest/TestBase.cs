@@ -5,6 +5,9 @@ namespace HOW.Selenium.WebApp.Tests.MSTest
 {
     public class TestBase
     {
+
+        public TestContext TestContext { get; set; }
+
         //Snippet selbase
         [TestInitialize()]
         public void Initialize()
@@ -21,7 +24,5 @@ namespace HOW.Selenium.WebApp.Tests.MSTest
         {
             Driver.Quit();
         }
-
-        public TestContext TestContext { get; set; }
     }
 }
