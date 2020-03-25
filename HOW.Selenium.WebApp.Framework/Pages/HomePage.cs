@@ -18,5 +18,15 @@ namespace HOW.Selenium.WebApp.Framework.Pages
                 return (header.Text == "Welcome");
             }
         }
+
+        public static bool IsTextPresent(string textToLocate)
+        {
+            return Driver.Instance.PageSource.Contains(textToLocate);
+        }
+
+        public static bool IsTitleValid(string expectedPageTitle)
+        {
+            return (expectedPageTitle == Driver.Instance.Title);
+        }
     }
 }
