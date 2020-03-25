@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System;
 
-namespace HOW.Selenium.WebApp.Tests
+namespace HOW.Selenium.WebApp.Tests.XUnit
 {
     public abstract class TestBase : IDisposable
     {

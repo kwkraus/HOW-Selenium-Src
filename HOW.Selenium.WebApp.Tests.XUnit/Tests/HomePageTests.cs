@@ -2,7 +2,7 @@
 using System.Threading;
 using Xunit;
 
-namespace HOW.Selenium.WebApp.Tests.Tests
+namespace HOW.Selenium.WebApp.Tests.XUnit.Tests
 {
     public class HomePageTests : TestBase
     {
