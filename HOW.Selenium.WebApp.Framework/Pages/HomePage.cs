@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using System;
 
 namespace HOW.Selenium.WebApp.Framework.Pages
 {
@@ -27,6 +28,20 @@ namespace HOW.Selenium.WebApp.Framework.Pages
         public static bool IsTitleValid(string expectedPageTitle)
         {
             return (expectedPageTitle == Driver.Instance.Title);
+        }
+
+        public static void ClickPrivacyLink()
+        {
+            var linkText = "Privacy";
+
+            try
+            {
+                Driver.Instance.FindElement(By.LinkText(linkText)).Click();
+            }
+            catch(NoSuchElementException nseex)
+            {
+                throw new ApplicationException($"Failed to find link with text={linkText}", nseex);
+            }
         }
     }
 }
