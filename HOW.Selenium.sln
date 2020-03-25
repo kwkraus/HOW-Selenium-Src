@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOW.Selenium.WebApp", "HOW.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOW.Selenium.WebApp.Framework", "HOW.Selenium.WebApp.Framework\HOW.Selenium.WebApp.Framework.csproj", "{F62E4C4C-1B6D-46AB-8201-DB159AA53940}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOW.Selenium.WebApp.Tests.XUnit", "HOW.Selenium.WebApp.Tests.XUnit\HOW.Selenium.WebApp.Tests.XUnit.csproj", "{66F27B80-4B09-4D0B-8090-3C82EB2C692E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOW.Selenium.WebApp.Tests.MSTest", "HOW.Selenium.WebApp.Tests.MSTest\HOW.Selenium.WebApp.Tests.MSTest.csproj", "{71D60770-A230-4573-886F-D6A4796CE989}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{F62E4C4C-1B6D-46AB-8201-DB159AA53940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62E4C4C-1B6D-46AB-8201-DB159AA53940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62E4C4C-1B6D-46AB-8201-DB159AA53940}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66F27B80-4B09-4D0B-8090-3C82EB2C692E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66F27B80-4B09-4D0B-8090-3C82EB2C692E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66F27B80-4B09-4D0B-8090-3C82EB2C692E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66F27B80-4B09-4D0B-8090-3C82EB2C692E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71D60770-A230-4573-886F-D6A4796CE989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71D60770-A230-4573-886F-D6A4796CE989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71D60770-A230-4573-886F-D6A4796CE989}.Release|Any CPU.ActiveCfg = Release|Any CPU
