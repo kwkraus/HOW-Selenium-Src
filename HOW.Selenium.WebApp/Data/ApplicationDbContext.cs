@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using HOW.Selenium.WebApp.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,5 +10,7 @@ namespace HOW.Selenium.WebApp.Data
             : base(options)
         {
         }
+
+        public DbSet<Request> Requests { get; set; }
     }
 }
