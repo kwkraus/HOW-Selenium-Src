@@ -20,6 +20,13 @@ namespace HOW.Selenium.WebApp.Framework.Pages
             }
         }
 
+        public static bool IsNavLinkPresent(string linkText)
+        {
+            var links = Driver.Instance.FindElements(By.LinkText(linkText));
+
+            return (links.Count > 0);
+        }
+
         public static bool IsTextPresent(string textToLocate)
         {
             return Driver.Instance.PageSource.Contains(textToLocate);

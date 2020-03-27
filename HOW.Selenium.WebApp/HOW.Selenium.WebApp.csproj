@@ -5,6 +5,11 @@
     <UserSecretsId>aspnet-HOW.Selenium.WebApp-051E139D-0614-42F2-91AF-642C5CA423A1</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20200326194913_Requests.cs" />
+    <Compile Remove="Data\Migrations\20200326194913_Requests.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.3" />

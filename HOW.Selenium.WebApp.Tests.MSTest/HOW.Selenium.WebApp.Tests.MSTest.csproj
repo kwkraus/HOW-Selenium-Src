@@ -25,4 +25,10 @@
     <ProjectReference Include="..\HOW.Selenium.WebApp.Framework\HOW.Selenium.WebApp.Framework.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="dev.runsettings">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
