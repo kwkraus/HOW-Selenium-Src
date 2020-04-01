@@ -33,6 +33,7 @@ namespace HOW.Selenium.WebApp.Framework.Pages
             }
             catch (WebDriverTimeoutException wdex)
             {
+                Helper.TakeScreenShot(Driver.Instance, nameof(SubmitRequest));
                 throw new ApplicationException($"Timeout reached when trying to click Create_Request button", wdex);
             }
         }

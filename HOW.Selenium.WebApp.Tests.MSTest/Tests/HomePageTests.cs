@@ -43,5 +43,13 @@ namespace HOW.Selenium.WebApp.Tests.MSTest.Tests
 
             Assert.IsTrue(PrivacyPage.IsAt, "Failed to navigate to Privacy Page");
         }
+
+        [TestMethod]
+        public void HomePage_Execute_Alert_And_Dismiss()
+        {
+            HomePage.GoTo();
+            HomePage.ClickAlertFromExecuteJS();
+            Assert.IsTrue(HomePage.IsAt);
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using System;
+using System.Threading;
 
 namespace HOW.Selenium.WebApp.Framework.Pages
 {
@@ -45,10 +46,20 @@ namespace HOW.Selenium.WebApp.Framework.Pages
             {
                 Driver.Instance.FindElement(By.LinkText(linkText)).Click();
             }
-            catch(NoSuchElementException nseex)
+            catch (NoSuchElementException nseex)
             {
                 throw new ApplicationException($"Failed to find link with text={linkText}", nseex);
             }
+        }
+
+        public static void ClickAlertFromExecuteJS()
+        {
+            ((IJavaScriptExecutor)Driver.Instance).ExecuteScript(
+                "alert('executed from selenium ExecuteScript');");
+
+            IAlert alert = Driver.Instance.SwitchTo().Alert();
+            Thread.Sleep(1500);
+            alert.Accept();
         }
     }
 }
